@@ -20,6 +20,7 @@ validates :password, confirmation: { case_sensitive: true }
         gender: auth_hash["extra"]["raw_info"]["gender"],
         birthday: auth_hash["extra"]["raw_info"]["birthday"],
         country: auth_hash["extra"]["raw_info"]["homwtown"],
+        #image: auth_hash["extra"]["info"]["image"],
         password: SecureRandom.hex(5)
       )
       user.authentications << authentication
