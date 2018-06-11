@@ -62,6 +62,7 @@ group :development do
   gem 'kairos-api'
   gem 'carrierwave-base64' 
   gem 'rmagick'
+  gem 'thin'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem

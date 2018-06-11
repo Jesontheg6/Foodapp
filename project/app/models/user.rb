@@ -35,9 +35,9 @@ validates :password, confirmation: { case_sensitive: true }
 
 GENDER_TYPES = ["Male", "Female", "Others"]
 
-  mount_uploaders :photos, PhotoUploader
-   serialize :photos, JSON
-   belongs_to :user
-   validates :photos, presence: true
+#  mount_uploaders :photos, PhotoUploader
+ #  serialize :photos, JSON
+  # belongs_to :user
+   #validates :photos, presence: true
 
 end  

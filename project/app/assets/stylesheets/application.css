@@ -23,7 +23,7 @@ body {
   text-align: center;
 }
 */
-
+/*
 body {
   background-color: #fafafa;
   font-family: proxima-nova, 'Helvetica Neue', Arial, Helvetica, sans-serif;
@@ -100,4 +100,13 @@ body {
 .edit-links {
   margin-top: 20px;
   margin-bottom: 40px;
+}*/
+
+body {
+  padding-top: 5rem;
 }
+.starter-template {
+  padding: 3rem 1.5rem;
+  text-align: center;
+}
+

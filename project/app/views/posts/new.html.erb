@@ -23,11 +23,11 @@
 <div class="form-group">
 <h2> Scan a face </h2>
 <br>
-  <div id="my_camera"></div>
+  <!--<div id="my_camera"></div>
   <input type=button value="Take Snapshot" onClick="take_snapshot()">
   <div class="field">
-    <%= f.hidden_field :image %>
-    <%= f.label :image %>: <br />
+    <%#= f.hidden_field :image %>
+    <%#= f.label :image %>: <br />
     <div id="results">Your captured image will appear here...</div>
   </div>
 
@@ -35,7 +35,7 @@
 
 
 <br>
-<br>
+<br> -->
 
  <h4>Allow Current Location </h4>
  <div style='width: 800px; margin-left: 0px; margin-top: 10px; margin-bottom:20px;'>
@@ -51,7 +51,7 @@
 
 <h4> Comment on the person</h4>
 <br>
-  <%= f.text_area :review, :class => "form-control", :rows=> "3",placeholder:'insert your comment' %>
+  <%= f.text_area :review, :class => "form-control", :rows=> "2",placeholder:'insert your comment' %>
   <br>
 
 

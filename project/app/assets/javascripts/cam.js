@@ -1,3 +1,4 @@
+/*
 function take_snapshot(){
     Webcam.snap(function(data_uri) {
         id = $('[id*="_image"]');
@@ -21,3 +22,4 @@ $(document).ready(function() {
         Webcam.attach('#my_camera');
     }
 });
+/*

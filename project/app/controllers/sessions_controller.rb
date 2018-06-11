@@ -9,7 +9,7 @@ end
     user = User.where(email: params[:session][:email].downcase).first
     if user && user.authenticate(params[:session][:password])
        sign_in user
-      redirect_to "/users/feed"
+      redirect_to "/posts/new"
     else
       flash[:error] = 'Invalid email/password combination'
       redirect_to "/users/new"

@@ -14,12 +14,10 @@ end
 
   def create
   	@user = User.new(user_params)
-    #byebug
-    if @user.save 
+    if @user.save!
     	session[:user_id] = @user.id
-    	redirect_to "/feed", notice: "User successfully created"
+    	redirect_to "/posts/new", notice: "User successfully created"
     	else
-        #byebug
         @user.errors.full_messages.inspect
        render 'new'
     end 
